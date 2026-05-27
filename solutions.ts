@@ -10,7 +10,7 @@ function reverseString(word: string): string {
 
 type StringOrNumber = number | string;
 function checkType  (value: StringOrNumber)  {
-  if (typeof value === "String") {
+  if (typeof value === "string") {
     return "String";
   } else {
     return "Number";
